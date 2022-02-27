@@ -1,0 +1,9 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ò¤µæ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(óœû‚şÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ò¤µæ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÓâìÉ
+N	java:S106 "9Replace this use of System.out or System.err by a logger.(ò¤µæ
+n
+java:S1192"XDefine a constant instead of duplicating this literal "-----------------------" 3 times.(ò¤µæ
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(°¸?
