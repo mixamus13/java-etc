@@ -1,4 +1,4 @@
-package org.example.javaproblem.chapter1.po7_convert_string_to_int_long_float_double;
+package org.example.javaproblem.chapter1.p07_convert_string_to_int_long_float_double;
 
 public class Main {
 
