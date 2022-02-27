@@ -1,4 +1,4 @@
-package org.example.javaproblem.chapter1.P05_CountVowelsAndConsonants;
+package org.example.javaproblem.chapter1.p05_count_vowels_and_consonants;
 
 import java.util.Arrays;
 import java.util.HashSet;

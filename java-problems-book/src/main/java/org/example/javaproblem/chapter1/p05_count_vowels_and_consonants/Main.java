@@ -1,4 +1,4 @@
-package org.example.javaproblem.chapter1.P05_CountVowelsAndConsonants;
+package org.example.javaproblem.chapter1.p05_count_vowels_and_consonants;
 
 import java.util.concurrent.TimeUnit;
 
@@ -17,8 +17,8 @@ public class Main {
     Pair pairV1 = Strings.countVowelsAndConsonantsV1(TEXT);
 
     displayExecutionTime(System.nanoTime() - startTimeV1);
-    System.out.println("Vowels: " + pairV1.vowels);
-    System.out.println("Consonants: " + pairV1.consonants);
+    System.out.println("Vowels: " + pairV1.getVowels());
+    System.out.println("Consonants: " + pairV1.getConsonants());
 
     System.out.println();
     System.out.println("Java 8, functional-style solution:");
@@ -27,8 +27,8 @@ public class Main {
     Pair pairV2 = Strings.countVowelsAndConsonantsV2(TEXT);
 
     displayExecutionTime(System.nanoTime() - startTimeV2);
-    System.out.println("Vowels: " + pairV2.vowels);
-    System.out.println("Consonants: " + pairV2.consonants);
+    System.out.println("Vowels: " + pairV2.getVowels());
+    System.out.println("Consonants: " + pairV2.getConsonants());
 
     System.out.println("--------------------------------------");
     System.out.println("StreamAPI");
