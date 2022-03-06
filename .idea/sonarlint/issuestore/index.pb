@@ -48,12 +48,6 @@ ejava-problems-book/src/main/java/org/example/javaproblem/chapter1/P04_ContainsO
 Œ
 \java-problems-book/src/main/java/org/example/javaproblem/chapter1/P03_ReverseWords/Main.java,b/2/b297f6a0a417ac04af69f1e94d8d117448b91848
 ž
-njava-problems-book/src/main/java/org/example/javaproblem/chapter1/p05_count_vowels_and_consonants/Strings.java,2/b/2b5b31ec55bda9c98736389b122b7e187d87236b
-›
-kjava-problems-book/src/main/java/org/example/javaproblem/chapter1/p05_count_vowels_and_consonants/Pair.java,4/d/4d167405a88a90c41e00b45c7078b59142fa96a5
-›
-kjava-problems-book/src/main/java/org/example/javaproblem/chapter1/p05_count_vowels_and_consonants/Main.java,e/0/e0696cdf1ca058488b5e18ab81c11f2c6af3dd4e
-ž
 njava-problems-book/src/main/java/org/example/javaproblem/chapter1/p06_count_occurrences_of_character/Main.java,4/2/42295264217a4a41c261f7c7a16ebc9e5802b51a
 ¡
 qjava-problems-book/src/main/java/org/example/javaproblem/chapter1/p06_count_occurrences_of_character/Strings.java,7/8/7842a62985a9510d2927b2ea2d4d1e5c1f5f7311
