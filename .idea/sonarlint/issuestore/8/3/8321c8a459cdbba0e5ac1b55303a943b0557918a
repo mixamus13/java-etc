@@ -1,0 +1,14 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ãƒıÿÿÿÿ8ã·…€ö/
+T	java:S106"9Replace this use of System.out or System.err by a logger.(…Û“8ä·…€ö/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¢ò¯İÿÿÿÿÿ8æ·…€ö/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ç·…€ö/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÎßŠ¾8è·…€ö/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ÿ½Íş8ë·…€ö/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ï·…€ö/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ë¬éÿüÿÿÿÿ8ñ·…€ö/
+Z	java:S106%"9Replace this use of System.out or System.err by a logger.(Ÿå˜¹ùÿÿÿÿ8ô·…€ö/
+Z	java:S106)"9Replace this use of System.out or System.err by a logger.(ûá„‘ùÿÿÿÿ8ù·…€ö/
+
+java:S1192"]Define a constant instead of duplicating this literal "String with no duplicates: 
+" 3 times.(¢ò¯İÿÿÿÿÿ8û·…€ö/

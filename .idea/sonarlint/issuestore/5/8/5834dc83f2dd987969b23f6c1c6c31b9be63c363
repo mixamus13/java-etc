@@ -1,0 +1,30 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(  êÇ8äÌœ‚ö/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(®Ä¦Æ8æÌœ‚ö/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Õ‡·¸8çÌœ‚ö/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(®Î·Ê8ïÌœ‚ö/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8óÌœ‚ö/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÛçÏ™8õÌœ‚ö/
+U	java:S106""9Replace this use of System.out or System.err by a logger.(ûô°°8öÌœ‚ö/
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8÷Ìœ‚ö/
+Z	java:S106%"9Replace this use of System.out or System.err by a logger.(ë¬éÿüÿÿÿÿ8øÌœ‚ö/
+Z	java:S106+"9Replace this use of System.out or System.err by a logger.(ºûæíşÿÿÿÿ8ùÌœ‚ö/
+Z	java:S106-"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ùÌœ‚ö/
+U	java:S106."9Replace this use of System.out or System.err by a logger.(ÔËö•8úÌœ‚ö/
+Z	java:S106/"9Replace this use of System.out or System.err by a logger.(ìáÌ±ıÿÿÿÿ8úÌœ‚ö/
+U	java:S1060"9Replace this use of System.out or System.err by a logger.(×†‡˜8ûÌœ‚ö/
+T	java:S1066"9Replace this use of System.out or System.err by a logger.(ªÚµt8üÌœ‚ö/
+Z	java:S1068"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ıÌœ‚ö/
+U	java:S1069"9Replace this use of System.out or System.err by a logger.(ÔËö•8şÌœ‚ö/
+Z	java:S106:"9Replace this use of System.out or System.err by a logger.(ìáÌ±ıÿÿÿÿ8şÌœ‚ö/
+Z	java:S106;"9Replace this use of System.out or System.err by a logger.(Ò”¹ûÿÿÿÿ8ÿÌœ‚ö/
+Z	java:S106A"9Replace this use of System.out or System.err by a logger.(Õù¥Ìûÿÿÿÿ8€Íœ‚ö/
+Z	java:S106E"9Replace this use of System.out or System.err by a logger.(ûá„‘ùÿÿÿÿ8‚Íœ‚ö/
+k
+java:S1192"NDefine a constant instead of duplicating this literal "Input text: 
+" 3 times.(  êÇ8„Íœ‚ö/
+g
+java:S1192"JDefine a constant instead of duplicating this literal "Result: 
+" 5 times.(®Î·Ê8„Íœ‚ö/
+s
+java:S1192"VDefine a constant instead of duplicating this literal "Character to remove: " 3 times.(®Ä¦Æ8…Íœ‚ö/

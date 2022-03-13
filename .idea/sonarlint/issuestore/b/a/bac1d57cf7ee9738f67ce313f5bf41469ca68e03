@@ -1,0 +1,21 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÎûËº
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ßÝË§
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ä“¥Ú
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Â Â¼ýÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(å¿Ý¾
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+N	java:S106 "9Replace this use of System.out or System.err by a logger.(•±„¶
+M	java:S106'"9Replace this use of System.out or System.err by a logger.(íœÏ>
+S	java:S106("9Replace this use of System.out or System.err by a logger.(Òý°±úÿÿÿÿ
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(ë¬éÿüÿÿÿÿ
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(‚û«Íúÿÿÿÿ
+N	java:S1063"9Replace this use of System.out or System.err by a logger.(ÌçŸ¦
+S	java:S1068"9Replace this use of System.out or System.err by a logger.(ûá„‘ùÿÿÿÿ
+Z	java:S106A"9Replace this use of System.out or System.err by a logger.(ˆà÷¥þÿÿÿÿ8ˆƒˆÝó/
+Z	java:S106D"9Replace this use of System.out or System.err by a logger.(‡¶è’ùÿÿÿÿ8‰ƒˆÝó/
+r
+java:S1192"WDefine a constant instead of duplicating this literal "Contains only digits: " 6 times.(Â Â¼ýÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÚÐ÷Åùÿÿÿÿ

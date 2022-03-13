@@ -1,0 +1,19 @@
+
+\
+java:S1854?"?Remove this useless assignment to local variable "toIntWrong1".(‹¦Ô8ıÊæãó/
+a
+java:S1854F"?Remove this useless assignment to local variable "toIntWrong2".(ö¤æşÿÿÿÿ8ıÊæãó/
+T	java:S106*"9Replace this use of System.out or System.err by a logger.(îçƒq8€Ëæãó/
+Z	java:S106,"9Replace this use of System.out or System.err by a logger.(Ò­öÄÿÿÿÿÿ8Ëæãó/
+Z	java:S106/"9Replace this use of System.out or System.err by a logger.(™íàşÿÿÿÿ8Ëæãó/
+Z	java:S1061"9Replace this use of System.out or System.err by a logger.(õûşøÿÿÿÿ8Ëæãó/
+Z	java:S1064"9Replace this use of System.out or System.err by a logger.(«­™Ùûÿÿÿÿ8Ëæãó/
+U	java:S1066"9Replace this use of System.out or System.err by a logger.(Ò½ç¬8‚Ëæãó/
+U	java:S1069"9Replace this use of System.out or System.err by a logger.(ì†­Ñ8‚Ëæãó/
+Z	java:S106;"9Replace this use of System.out or System.err by a logger.(ªü—ìúÿÿÿÿ8‚Ëæãó/
+M
+java:S1481?"0Remove this unused "toIntWrong1" local variable.(‹¦Ô8‚Ëæãó/
+Z	java:S106A"9Replace this use of System.out or System.err by a logger.(Şàš¬øÿÿÿÿ8ƒËæãó/
+R
+java:S1481F"0Remove this unused "toIntWrong2" local variable.(ö¤æşÿÿÿÿ8ƒËæãó/
+Z	java:S106H"9Replace this use of System.out or System.err by a logger.(Şàš¬øÿÿÿÿ8„Ëæãó/
