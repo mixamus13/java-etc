@@ -1,5 +1,7 @@
 package org.example.refactoring_guru.builder;
 
+import java.util.Objects;
+
 public class BuilderCustom {
 
     private final Long id;
@@ -45,6 +47,9 @@ public class BuilderCustom {
         private Integer age;
 
         Builder paramOne(Long id) {
+            if (id == null) {
+                throw new IllegalArgumentException("id can not be null");
+            }
             this.id = id;
             return this;
         }
