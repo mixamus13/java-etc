@@ -1,11 +1,0 @@
-
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Ãƒıÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(°ö€çşÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(Ùİ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(å›²Ä
-Z	java:S106!"9Replace this use of System.out or System.err by a logger.(ûá„‘ùÿÿÿÿ8Æ‘ãó/
-Q
-java:S1068"4Remove this unused "CHAR_TO_COUNT_CP" private field.(—ÚµÜ8ˆŸãó/
-P
-java:S1068"5Remove this unused "CHAR_TO_COUNT_CPS" private field.(£µ­¸øÿÿÿÿ
