@@ -18,6 +18,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="alhorithm-book" target="11" />
+      <module name="feign-demo" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
