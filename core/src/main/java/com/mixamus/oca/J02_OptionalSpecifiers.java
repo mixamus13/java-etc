@@ -56,3 +56,5 @@ public abstract class J02_OptionalSpecifiers {
         return 23;
     }
 }
+
+class Application2 {}

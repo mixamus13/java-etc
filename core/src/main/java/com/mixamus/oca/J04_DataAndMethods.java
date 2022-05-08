@@ -13,3 +13,4 @@ public class J04_DataAndMethods {
     }
 }
 
+class Application4 {}

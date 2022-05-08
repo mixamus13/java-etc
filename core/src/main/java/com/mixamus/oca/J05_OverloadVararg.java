@@ -9,3 +9,5 @@ public class J05_OverloadVararg {
 
     public static void fly(int... leno) { }
 }
+
+class Application5 {}
