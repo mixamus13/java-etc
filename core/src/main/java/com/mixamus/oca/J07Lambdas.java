@@ -1,6 +1,7 @@
 package com.mixamus.oca;
 
 import java.util.List;
+import java.util.Objects;
 
 public class J07Lambdas {
     private final String species;
@@ -24,13 +25,28 @@ public class J07Lambdas {
     public String toString() {
         return species;
     }
-
 }
-
+/*----------------------- FunctionalInterface --------------------------*/
 @FunctionalInterface
 interface CheckTrait {
     boolean test(J07Lambdas lambdas);
 }
+
+@FunctionalInterface
+interface MyTrue {
+    boolean test();
+}
+
+@FunctionalInterface
+interface MyString {
+    boolean test(String str);
+}
+
+@FunctionalInterface
+interface MyStringTwoArg {
+    boolean test(String s1, String s2);
+}
+/*----------------------- FunctionalInterface --------------------------*/
 
 class ApplicationLambda {
 
@@ -43,7 +59,25 @@ class ApplicationLambda {
         );
 
         print(animals, J07Lambdas::canHop);
+
+        lambdaExample(J07Lambdas::canSwim);
+        lambdaExample(lambdas -> lambdas.canSwim());
+        lambdaExample((J07Lambdas lambda) -> {
+            return lambda.canSwim();
+        });
+
+        lambdaExample(J07Lambdas::canSwim);
+        lambdaExampleCustom(() -> true);
+        lambdaExampleString(s -> s.startsWith("test"));
+        lambdaExampleStringTwoArg((s1, s2) -> s1.startsWith("test"), Objects::deepEquals);
     }
+
+    private static void lambdaExampleStringTwoArg(MyStringTwoArg arg1, MyStringTwoArg arg2) { }
+    private static void lambdaExampleCustom(MyTrue myTrue) { }
+    public static void lambdaExampleString(MyString myString) { }
+
+    public static void lambdaExample(CheckTrait checkTrait) { }
+
     private static void print(List<J07Lambdas> animals, CheckTrait checker) {
         for (J07Lambdas animal : animals) {
             if (checker.test(animal)) {
@@ -54,6 +88,7 @@ class ApplicationLambda {
     }
 
 }
+
 class Application7WithoutLambda {
 
     public static void main(String... args) {
@@ -66,6 +101,7 @@ class Application7WithoutLambda {
 
         //print(animals, new CheckIfHopper());
     }
+
     private static void print(List<J07Lambdas> animals, CheckTrait checker) {
         for (J07Lambdas animal : animals) {
             if (checker.test(animal)) {
