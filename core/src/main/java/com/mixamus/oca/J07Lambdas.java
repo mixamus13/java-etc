@@ -75,7 +75,6 @@ class ApplicationLambda {
     private static void lambdaExampleStringTwoArg(MyStringTwoArg arg1, MyStringTwoArg arg2) { }
     private static void lambdaExampleCustom(MyTrue myTrue) { }
     public static void lambdaExampleString(MyString myString) { }
-
     public static void lambdaExample(CheckTrait checkTrait) { }
 
     private static void print(List<J07Lambdas> animals, CheckTrait checker) {
