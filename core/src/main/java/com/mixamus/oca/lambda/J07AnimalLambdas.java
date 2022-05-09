@@ -1,4 +1,4 @@
-package com.mixamus.oca;
+package com.mixamus.oca.lambda;
 
 import lombok.Value;
 
@@ -13,28 +13,6 @@ public class J07AnimalLambdas {
     boolean canHop;
     boolean canSwim;
 }
-
-/*----------------------- FunctionalInterface --------------------------*/
-@FunctionalInterface
-interface CheckTrait {
-    boolean test(J07AnimalLambdas lambdas);
-}
-
-@FunctionalInterface
-interface MyTrue {
-    boolean test();
-}
-
-@FunctionalInterface
-interface MyString {
-    boolean test(String str);
-}
-
-@FunctionalInterface
-interface MyStringTwoArg {
-    boolean test(String s1, String s2);
-}
-/*----------------------- FunctionalInterface --------------------------*/
 
 class ApplicationLambda {
 
@@ -137,12 +115,5 @@ class dPredicateInJava {
 
         animals.removeIf(s -> s.charAt(0) != 'r');
         System.out.println(animals);
-    }
-}
-
-class CheckIfHopper implements CheckTrait {
-    @Override
-    public boolean test(J07AnimalLambdas lambdas) {
-        return lambdas.isCanHop();
     }
 }
