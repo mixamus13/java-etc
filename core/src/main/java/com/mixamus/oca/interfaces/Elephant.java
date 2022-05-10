@@ -46,3 +46,18 @@ interface Herbivore {
 class Fly {
 
 }
+
+interface FlyBird {
+    public static int getFlyHigh() {
+        return 2000;
+    }
+}
+class Bird implements FlyBird {
+
+    public static void main(String... args) {
+        printDetails();
+    }
+    public static void printDetails() {
+        System.out.println(FlyBird.getFlyHigh());
+    }
+}
