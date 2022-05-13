@@ -15,5 +15,5 @@ public class User {
     private final String firstname;
     private final String lastname;
     private final String email;
-    private final Date created = new Date();
+    private final LocalDateTime created;
 }
