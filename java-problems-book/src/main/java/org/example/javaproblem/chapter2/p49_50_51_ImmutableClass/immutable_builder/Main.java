@@ -4,13 +4,13 @@ public class Main {
     public static void main(String... args) {
         User user1 = User.builder()
                 .firstname("marin21")
-                .password("hjju9887h")
+                .password("hajj9887h")
                 .build();
         System.out.println("User 1 successfully created on: " + user1.getCreated());
 
         // user with nickname, password and email
         User user2 = User.builder()
-                .nickname("ionk")
+                .nickname("ink")
                 .password("44fef22")
                 .email("ion@gmail.com")
                 .build();

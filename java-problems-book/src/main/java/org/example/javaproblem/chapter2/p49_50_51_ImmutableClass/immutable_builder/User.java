@@ -4,6 +4,7 @@ import lombok.Builder;
 import lombok.Data;
 
 import java.time.LocalDateTime;
+import java.util.Date;
 
 @Data
 @Builder
@@ -14,5 +15,5 @@ public class User {
     private final String firstname;
     private final String lastname;
     private final String email;
-    private final LocalDateTime created = LocalDateTime.now();
+    private final Date created = new Date();
 }
