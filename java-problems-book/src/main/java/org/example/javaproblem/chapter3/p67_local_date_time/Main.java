@@ -1,5 +1,10 @@
 package org.example.javaproblem.chapter3.p67_local_date_time;
 
+import lombok.SneakyThrows;
+import lombok.extern.slf4j.Slf4j;
+import org.json.simple.parser.JSONParser;
+
+import java.io.FileReader;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.Month;
@@ -51,5 +56,21 @@ public class Main {
         System.out.println(", and days = " + period.getDays() + ".");
         System.out.println("period.getUnits() = " + period.getUnits());
         System.out.println("period.getChronology() = " + period.getChronology());
+    }
+}
+
+@Slf4j
+class MainJson {
+    @SneakyThrows
+    public static void main(String... args) {
+        var parser = new JSONParser();
+        var reader = new FileReader("java-problems-book/example.json");
+        var jsonObject = parser.parse(reader);
+        log.debug("read json {}", jsonObject);
+        var bee = (byte)23;
+        var bee1 = bee;
+
+        var numArr = new int[10];
+        System.out.println("numArr = " + numArr.length);
     }
 }
