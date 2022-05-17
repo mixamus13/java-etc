@@ -4,6 +4,7 @@ import lombok.experimental.UtilityClass;
 
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.List;
 import java.util.stream.IntStream;
 
 @UtilityClass
@@ -53,9 +54,15 @@ public class ArraySearch {
     }
 
     public <T> int findIndexOfElementObjectStream(T[] arr, T toFind, Comparator<? super T> comparator) {
-        return IntStream.range(0, arr.length)
-                .filter(v -> comparator.compare(toFind, arr[v]) == 0)
-                .findFirst()
-                .orElse(-1);
+        for (int v = 0; v < arr.length; v++) {
+            if (comparator.compare(toFind, arr[v]) == 0) {
+                return v;
+            }
+        }
+        return -1;
+    }
+
+    public <T> int findIndexOfElementListStream(List<T> arr, Melon toFind, Comparator<? super T> comparator) {
+        return -1;
     }
 }

@@ -1,6 +1,7 @@
 package org.example.javaproblem.chapter5.p100_find_element_array;
 
 import java.util.Comparator;
+import java.util.List;
 
 public class Main {
     public static void main(String... args) {
@@ -14,6 +15,13 @@ public class Main {
                 new Melon("Gac", 1200),
                 new Melon("Bitter", 2200),
                 new Melon("Makhan", 3300)};
+
+        List<Melon> melonList = List.of(
+                new Melon("Crenshaw", 2000),
+                new Melon("Gac", 1200),
+                new Melon("Bitter", 2200),
+                new Melon("Makhan", 3300)
+        );
 
         boolean containsElement = ArraySearch.containsElement(numbers, 4);
         System.out.println("containsElement = " + containsElement);
@@ -32,5 +40,7 @@ public class Main {
 
         int indexOfElementObjectStream = ArraySearch.findIndexOfElementObjectStream(melons, new Melon("Honeydew", 2000), byWeight);
         System.out.println("indexOfElementObjectStream = " + indexOfElementObjectStream);
+
+        ArraySearch.findIndexOfElementListStream(melonList, new Melon("Honeydew", 2000), byWeight);
     }
 }
