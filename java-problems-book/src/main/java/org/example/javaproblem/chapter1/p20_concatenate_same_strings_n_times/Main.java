@@ -85,7 +85,7 @@ class App {
         String strings = "Hello".repeat(13);
         System.out.println("strings = " + strings);
 
-        String stream = Stream.generate(() -> "Max")
+        String stream = Stream.generate(() -> "Main")
                 .limit(13)
                 .peek(System.out::println)
                 .collect(Collectors.joining());

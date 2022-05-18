@@ -8,12 +8,12 @@ import java.util.stream.Stream;
 
 public class Main {
     public static void main(String... args) {
-        String[] names = {"Bob", "Milena", "Max", "Jack", "Bob", "Anabel"};
+        String[] names = {"Bob", "Milena", "Main", "Jack", "Bob", "Anabel"};
         var streamNames = Arrays.stream(names, 1, 3);
         var streamOf = Stream.of(names);
         streamNames.forEach(System.out::println);
 
-        var listNames = List.of("Bob", "Milena", "Max", "Jack", "Bob", "Anabel");
+        var listNames = List.of("Bob", "Milena", "Main", "Jack", "Bob", "Anabel");
         var streamListNames = Stream.of(listNames.subList(1, 4));
         streamListNames.forEach(System.out::println);
 

@@ -5,8 +5,8 @@ import java.util.Set;
 
 public class Main {
     public static void main(String... args) {
-        Player player1 = new Player(1, "Max Dok");
-        Player player2 = new Player(1, "Max Dok");
+        Player player1 = new Player(1, "Main Dok");
+        Player player2 = new Player(1, "Main Dok");
 
         System.out.println("player1.equals(player2) = " + player1.equals(player2));
 
@@ -20,7 +20,7 @@ public class Main {
         players.add(player2);
         System.out.println(players.size());
 
-        System.out.println("players.contains Player = " + players.contains(new Player(1, "Max Dok")));
+        System.out.println("players.contains Player = " + players.contains(new Player(1, "Main Dok")));
 
         //Arrays.hashCode(player1, player2);
     }

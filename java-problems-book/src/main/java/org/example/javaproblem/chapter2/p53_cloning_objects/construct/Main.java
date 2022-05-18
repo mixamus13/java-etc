@@ -8,7 +8,7 @@ public class Main {
 
         Person person = new Person();
         person.setAge(43);
-        person.setName("Max");
+        person.setName("Main");
         person.setEmail("mixamus@me.com");
 
         Person personOne = new Person(person);

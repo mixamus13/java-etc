@@ -1,4 +1,4 @@
-package org.example.javaproblem.p104_reverce_array;
+package org.example.javaproblem.chapter5.p104_reverce_array;
 
 import lombok.Value;
 

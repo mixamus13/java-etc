@@ -1,7 +1,6 @@
-package org.example.javaproblem.p104_reverce_array;
+package org.example.javaproblem.chapter5.p104_reverce_array;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.stream.IntStream;
 
 public class Main {
@@ -10,7 +9,7 @@ public class Main {
         Melon[] melons = {new Melon("Crenshaw", 2000), new Melon("Gac", 3200), new Melon("Bitter", 5200)};
 
         IntStream intStream = IntStream.rangeClosed(1, integers.length)
-                .map(operand -> integers[integers.length - operand]);
+                .map(o -> integers[integers.length - o]);
         intStream.forEach(System.out::println);
 
         System.out.println("before melons = " + Arrays.toString(melons));
