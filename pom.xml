@@ -16,6 +16,7 @@
         <module>lombok</module>
         <module>core</module>
         <module>algorithm-book</module>
+        <module>interview</module>
     </modules>
 
     <properties>

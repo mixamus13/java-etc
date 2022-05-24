@@ -12,6 +12,7 @@
         <module name="algorithm-book" />
         <module name="patterns" />
         <module name="spring-etc" />
+        <module name="interview" />
         <module name="lombok" />
         <module name="java-problems-book" />
       </profile>
