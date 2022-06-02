@@ -39,19 +39,19 @@ public class Application {
 
     // Return list of users with any group starting with "A"
     public static List<User> consume(Stream<User> usersStream) {
-        return usersStream.filter(user -> Objects.nonNull(user.getGroups()))
+        return usersStream.filter(user -> user.getGroups() != null && !user.getGroups().isEmpty())
                 .filter(user -> user.getGroups().stream()
-                        .filter(group -> Objects.nonNull(group.getName()))
-                        .anyMatch(group -> group.getName().startsWith("A")))
+                        .filter(group -> group.getName() != null)
+                        .anyMatch(group -> group.getName().toLowerCase().startsWith("a")))
                 .toList();
     }
 
-//    public static List<User> consume(Stream<User> usersStream) {
-//        return usersStream.filter(u -> (Objects.nonNull(u.getGroups()) && !u.getGroups().isEmpty()))
-//                .filter(u -> u.getGroups().stream()
-//                        .filter(g -> Objects.nonNull(g.getName()))
-//                        .anyMatch(g -> g.getName().toLowerCase().startsWith("a")))
-//                .toList();
-//
-//    }
+    public static List<User> consumeV2(Stream<User> usersStream) {
+        return usersStream.filter(u -> (Objects.nonNull(u.getGroups()) && !u.getGroups().isEmpty()))
+                .filter(u -> u.getGroups().stream()
+                        .filter(g -> Objects.nonNull(g.getName()))
+                        .anyMatch(g -> g.getName().toLowerCase().startsWith("a")))
+                .toList();
+
+    }
 }

@@ -33,7 +33,7 @@ public class Main {
         System.out.println("Java 8, functional-style solution:");
         long startTimeV3 = System.nanoTime();
 
-        boolean anagramV3 = Strings.isAnagramStream(TEXT1, TEXT2);
+        boolean anagramV3 = Strings.isAnagramStream("sosna", "nasos");
 
         displayExecutionTime(System.nanoTime() - startTimeV3);
         System.out.println("Is anagram? " + anagramV3);

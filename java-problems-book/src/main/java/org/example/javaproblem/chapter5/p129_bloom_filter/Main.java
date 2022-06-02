@@ -3,6 +3,7 @@ package org.example.javaproblem.chapter5.p129_bloom_filter;
 import org.example.javaproblem.chapter2.p53_cloning_objects.construct.Person;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Main {
@@ -13,6 +14,7 @@ public class Main {
         // use one of the available constructors
         // 0.3 = 30% false positives probability expected, 10 elements expected
         BloomFilter bf = new BloomFilter(0.3, 10);
+        List<String> lists = new LinkedList<>();
 
         bf.add("Octavia");
         bf.add("Anghel");
@@ -33,24 +35,6 @@ public class Main {
         System.out.println("Alexandra is there? " + bf.contains("Alexandra")); // expected false
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 final class ImmutableClass {
 
     private final StringBuilder builder;
